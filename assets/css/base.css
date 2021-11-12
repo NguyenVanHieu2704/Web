@@ -1,0 +1,79 @@
+:root {
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #333;
+    --primary-color:#ff7e00;
+}
+*{
+    /* padding: 0; margin: 0; */
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box; 
+    scroll-behavior: smooth;
+
+}
+.grid{
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.grid__full-width{
+    width: 100%;
+}
+.grid__row{
+    display: flex;
+    flex-wrap: wrap  ;
+    margin-left: -12px;
+    margin-right: -12px;
+
+}
+
+.grid__coloum-3{
+    padding-left:12px;
+    padding-right:12px;
+    width: 24.999%;
+}
+.grid__coloum-4{
+    padding-left:12px;
+    padding-right:12px;
+    width: 33.333%;
+}
+.grid__coloum-4-1{
+    padding-left:15px;
+    padding-right:15px;
+    width: 30%;
+}
+.grid__coloum-6{
+    padding-left:15px;
+    padding-right:15px;
+    width: 50%;
+}
+
+
+
+@keyframes modalFadeIn{
+    from{
+        transform: translateY(10px);
+    }
+    to{
+        transform: translateY(0);
+    }
+}
+.title{
+    text-align: center;
+    font-size: 3.6rem;
+}
+@keyframes title{
+    from{
+      transform: scale(1);
+    }
+    
+    50%{
+      transform: scale(1.2);
+    }
+    
+} 
